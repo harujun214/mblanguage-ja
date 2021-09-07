@@ -1,0 +1,686 @@
+{
+    "description": "Copyright © 2021 gin0492 All Rights Reserved.",
+    "file/": {
+        "language": "日本語",
+		"locale": "ja-JP",
+        "translator": "kuadr0",
+        "forversion": "1.1.3",
+        "lastchange": "2021/02/11"
+    },
+	"startup/": {
+		"modeldetected": "未保存モデルの検出",
+		"modeldetecteddesc": "以前のモデルベンチセッションから未保存のモデルが見つかりました。",
+		"recovermodel": "復元...",
+		"browse": "読み込む...",
+		"newmodel": "新規モデル",
+		"recentmodels": "最近のモデル",
+		"startfromscratch": "ゼロからスタート...",
+		"loadatemplate": "テンプレートの読み込み...",
+		"version": "v %1"
+	},
+	"recent/": {
+		"lastopened": "最近使用したモデル",
+		"lastopened/": {
+			"recently": "最近",
+			"minutes": "%1 分前",
+			"hours": "%1 時間前",
+			"yesterday": "昨日",
+			"days": "%1 日前",
+			"lastweek": "先週前",
+			"date": "最後に開いた日 %1/%2/%3",
+			"never": "まだ開いてない",
+			"future": "未来"
+		},
+		"none": "最近開いたモデルはこちらに登場します！",
+		"sortascendingtip": "昇順に並べ替え",
+		"sortdescendingtip": "降順に並べ替え",
+		"pintip": "固定",
+		"removetip": "削除",
+		"filename": "ファイル名",
+		"models": "最近のモデル"
+	},
+	"error/": {
+		"fileunreadable": "ファイルを正しく読み込めませんでした。詳細はログを参照してください。バックアップファイル(.mbbackup)があれば、それを読み込んでみてください(ファイルブラウザの拡張子を変更してください)。",
+        "fileunreadablecaption": "読み取れないファイル"
+	},
+	"question/": {
+        "confirmexit": "終了する前に %1 で行った変更を保存しますか?",
+        "confirmnew": "新しいモデルを作成する前に %1 で行った変更を保存しますか?",
+		"confirmopen": "別のモデルを開く前に %1 で行った変更を保存しますか?",
+		"confirmsaveas": "新しいモデルとして保存する前に %1 で行った変更を保存しますか?",
+		"confirmsaveexit": "現在のモデルがまだ保存されていません。終了する前に現在のモデルを保存しますか？",
+		"confirmsavenew": "現在のモデルがまだ保存されていません。新しいモデルを作成する前に現在のモデルを保存しますか？",
+		"confirmsaveopen": "現在のモデルがまだ保存されていません。他のモデルを開く前に現在のモデルを保存しますか？",
+        "replace": "名前 '%1' のテクスチャが既に存在します。新しいテクスチャに置き換えますか？",
+        "restoredefaults": "デフォルトのショートカットの設定を復元してもよろしいですか？"
+    },
+	"filedialog/": {
+		"open/": {
+			"image": "画像",
+			"imagecaption": "画像を開く",
+			"model": "Mine-imatorモデル",
+			"modelbackup": "Modelbenchモデルバックアップ",
+            "modelcaption": "Mine-imatorモデルを開く",
+			"modeltemplate": "Modelbenchテンプレート",
+			"modeltemplatecaption": "Modelbenchテンプレートを開く"
+		},
+		"save/": {
+			"model": "Mine-imatorモデル",
+			"modelcaption": "Mine-imatorモデルを保存",
+			"image": "画像",
+            "imagecaption": "画像を保存",
+            "obj": "Wavefront",
+			"objcaption": ".objファイルを保存"
+		},
+		"import/": {
+			"modelcaption": "Mine-imatorモデルをインポート"
+		}
+	},
+	"uveditor/": {
+		"front": "前",
+		"back": "後",
+		"left": "左",
+		"right": "右",
+		"top": "上",
+		"bottom": "下"
+	},
+	"snackbar/": {
+		"newupdate": "新しいアップデートが利用可能",
+		"newupdatedesc": "%1 がダウンロードできるようになっています。",
+		"savemodel": "モデルの保存に成功しました",
+		"saveimage": "画像の保存に成功しました",
+		"openimage": "画像を開く",
+		"warning/": {
+			"samepartname": "同名のパーツもあります。",
+			"emptypartname": "名前がない部分もあります。",
+			"emptymodelname": "このモデルは名前がついていません。",
+			"savemodel": "Mine-imatorでは、モデルが正しく読み込まれない場合があります。"
+		},
+		"button/": {
+			"download": "今すぐダウンロード",
+			"update": "更新",
+			"remindmelater": "後で通知"
+		},
+		"tip/": {
+			"caption": "ヒント #%1",
+			"next": "次のヒント",
+			"previous": "前のヒント",
+			"1": "スローシェイプ生成をオンにして、3D平面でのパフォーマンスを上げてみてください。",
+			"2": "何かを見つけるのに苦労していますか？右ｸﾘｯｸしてｵﾌﾟｼｮﾝ付きのﾒﾆｭｰを表示してみてください。",
+			"3": "プログラムが遅く感じる場合は、シェイプアウトラインとSSAOを無効にしてみてください。",
+			"4": "見栄えの良いベンドを作るには、ピボットオフセットツールを使って形状を移動させます。",
+			"5": "「テクスチャをフォーカスでリフレッシュ」は、モデリング中のテクスチャ編集に便利です。"
+		}
+	},
+	"colorpicker/": {
+		"r": "R",
+		"g": "G",
+		"b": "B",
+		"h": "H",
+		"s": "S",
+		"v": "V",
+		"hex": "Hex"
+	},
+	"contextmenu/": {
+		"keycontrolreset": "ショートカットをリセット",
+		"copylink": "リンクをコピー",
+		"combinescale": "結合XYZ",
+		"seperatescale": "分離XYZ",
+		"centeraxis": "中心軸",
+		"resetview": "表示をリセット",
+		"value/": {
+			"on": "オン",
+			"off": "オフ",
+			"cut": "値をカット",
+			"copy": "値をコピー",
+			"paste": "値を貼り付け",
+			"reset": "値をリセット"
+		},
+		"category/": {
+			"position": "位置",
+			"pivotoffset": "ピボットオフセット",
+			"rotation": "回転",
+			"scale": "スケール",
+			"size": "サイズ",
+			"copy": "すべての %1 値をコピーします",
+			"paste": "すべての %1 値を貼り付けます",
+			"reset": "すべての %1 値をリセットします"
+		},
+		"textbox/": {
+			"cut": "カット",
+			"copy": "コピー",
+			"paste": "貼り付け",
+			"selectall": "すべて選択"
+		},
+		"texture/": {
+			"setmain": "メインテクスチャとして設定",
+			"remove": "モデルからテクスチャを削除",
+			"replace": "テクスチャを置き換える",
+			"refresh": "テクスチャをリフレッシュ",
+			"saveuvmap": "UVマップを保存"
+		},
+		"element/": {
+			"add": "要素の追加...",
+			"rename": "名前を変更",
+			"duplicate": "複製",
+			"delete": "削除",
+			"expandall": "すべて展開",
+			"collapseall": "すべて折りたたむ"
+		},
+		"addelement/": {
+			"part": "パーツ",
+			"block": "ブロック",
+			"plane": "平面",
+			"3dplane": "3D平面"
+		},
+		"viewport/": {
+			"selectall": "すべて選択"
+		}
+	},
+	"toolbar/": {
+		"modeling": "モデリング",
+		"preview": "プレビュー"
+	},
+	"tooltip/": {
+		"showoptions": "設定を表示",
+		"hideoptions": "設定を非表示",
+		"open": "開く",
+		"close": "閉じる",
+		"openmenu": "メニューを開く",
+		"closemenu": "メニューを閉じる",
+		"expand": "展開",
+		"collapse": "折りたたむ",
+		"show": "表示",
+		"hide": "非表示",
+		"lock": "ロック",
+		"unlock": "ロック解除",
+		"editshortcut": "ショートカットを編集",
+		"remove": "削除",
+		"pin": "固定",
+		"shortcut": "ショートカット: %1",
+		"xyz": "X: %1\nY: %2\nZ: %3",
+		"anglexyz": "X: %1°\nY: %2°\nZ: %3°",
+		"resize": "幅: %1\n長さ: %2\n高さ: %3",
+		"offset": "オフセット: %1",
+		"size": "サイズ: %1",
+		"undo": "元に戻す",
+		"redo": "やり直し",
+		"snapenable": "ツールのスナップを有効にする",
+		"snapdisable": "ツールのスナップを無効にする",
+		"overlaysenable": "オーバーレイを有効にする",
+		"overlaysdisable": "オーバーレイを無効にする",
+		"windenable": "風を有効にする",
+		"winddisable": "風を無効にする",
+		"flatmode": "フラットモード",
+		"shadedmode": "シェーディングモード",
+		"texturedmode": "テクスチャモード",
+		"walknav": "歩きのナビゲーションに切り替え",
+		"blockybendingenable": "ブロッキーベンディングを有効にする",
+		"blockybendingdisable": "ブロッキーベンディングを有効にする",
+		"snapenable": "グリッドアライメントを有効にする",
+		"snapdisable": "グリッドアライメントを無効にする",
+		"uveditor/": {
+			"editxy": "再配置",
+			"editwidthheight": "高さと幅を変えるr",
+			"editlength": "長さの変更",
+			"box": "ボックスのUVを設定する\n(クリック/ドラッグ)",
+			"hide": "UVエディタを非表示",
+			"show": "UVエディタを表示"
+		},
+		"guideshide": "ガイドを非表示",
+		"guidesshow": "ガイドを表示",
+		"customaccentcolor": "カスタムアクセントカラー",
+		"scenery/":
+		{
+			"overworld_day": "オーバーワールド (昼)",
+			"overworld_dusk": "オーバーワールド (夕暮れ)",
+			"overworld_night": "オーバーワールド (夜)",
+			"desert": "砂漠",
+			"snowy_plains": "雪原",
+			"cave": "洞窟",
+			"underwater": "海底",
+			"the_end": "ジ・エンド",
+			"nether": "ネザー",
+			"soulsand_valley": "ネザー (ソウルサンドの谷)"
+		}
+	},
+	"toolset/": {
+		"add/": {
+			"part": "パーツ",
+			"block": "ブロック",
+			"plane": "平面",
+			"plane3d": "3D平面"
+		},
+		"tool/": {
+			"select": "ツールを選択",
+			"pivot": "ピボットツール",
+			"move": "移動ツール",
+			"rotate": "回転ツール",
+			"scale": "スケールツール",
+			"transform": "変形ツール",
+			"bend": "ベンドツール",
+			"resize": "リサイズツール"
+		},
+		"snap/":
+		{
+			"size": "サイズ",
+			"mode": "モード",
+			"mode/":
+			{
+				"absolute": "アブソリュート",
+				"local": "ローカル"
+			}
+		}
+	},
+	"tab/": {
+		"assets": "アセット",
+		"elementeditor": "要素エディタ",
+		"preview": "プレビュー",
+		"recentmodels": "最近のモデル",
+		"exportmodel": "モデルをエクスポート",
+		"settings": "設定",
+		"about": "ModelBenchについて"
+	},
+	"menu/": {
+		"newmodel": "新規モデル",
+		"newmodeltemplate": "テンプレートから作成...",
+		"openmodel": "モデルを開く...",
+		"recentmodels": "最近のモデル",
+		"importmodel": "モデルをインポート...",
+		"exportmodel": "モデルを.OBJとしてエクスポート",
+		"save": "モデルを保存",
+		"saveas": "モデルを別名保存...",
+		"settings": "設定",
+		"about": "ModelBenchについて"
+	},
+	"settingsmenu/": {
+		"snap/": {
+			"move": "サイズ（移動）",
+			"rotate": "サイズ（回転）",
+			"scale": "サイズ（スケール）",
+			"uv": "サイズ（サイズ＆ＵＶ）",
+			"absolute": "絶対スナップ"
+		},
+		"overlays/": {
+			"grid": "グリッド",
+			"gizmos": "ギズモ",
+			"highlights": "ハイライト",
+			"outlines": "アウトライン",
+			"outlineopacity": "シェイプアウトラインの不透明度"
+		},
+		"wind/": {
+			"speed": "風の速度",
+			"strength": "風の強度"
+		},
+		"shading/": {
+			"ao": "アンビエントオクルージョン",
+			"lighting": "ライティング"
+		}
+	},
+	"key/": {
+        "left": "←",
+        "right": "→",
+        "up": "↑",
+        "down": "↓",
+        "enter": "Enter",
+        "escape": "Esc",
+        "space": "Space",
+        "shift": "Shift",
+        "leftshift": "shift（左）",
+        "rightshift": "shift（右）",
+        "alt": "Alt",
+        "leftalt": "alt（左）",
+        "rightalt": "alt（右）",
+        "control": "Ctrl",
+        "leftcontrol": "ctrl（左）",
+        "rightcontrol": "ctrl（右）",
+        "backspace": "Backspace",
+        "tab": "Tab",
+        "home": "Home",
+        "end": "End",
+        "delete": "Delete",
+        "insert": "Insert",
+        "pageup": "Page up",
+        "pagedown": "Page down",
+        "pause": "Pause",
+        "printscreen": "Printscreen"
+    },
+	"modelproperties": "モデルのプロパティ",
+	"elements": "要素",
+	"textures": "テクスチャ",
+	"position": "位置",
+	"pivotoffset": "軸オフセット",
+	"rotation": "回転",
+	"size": "サイズ",
+	"scale": "スケール",
+	"bend": "ベンド",
+	"material": "マテリアル",
+	"appearance": "外観",
+	"wind": "風",
+	"mineimator": "MINE-IMATOR",
+	"background": "背景",
+	"render": "レンダー",
+	"export": "書き出し",
+	"general": "一般",
+	"controls": "コントロール",
+	"interface": "インターフェイス",
+	"assets/": {
+	    "newmodel": "新規モデル",
+		"modelname": "モデル名",
+		"emptymodelname": "モデル名を空欄にすることはできません。",
+		"modellocation": "モデルの場所",
+		"modelnotsaved": "モデルが保存されていません",
+		"openfolder": "フォルダを開く",
+		"savemodel": "モデルを保存",
+		"playerskin": "マインクラフトのスキンを許可",
+		"playerskinhelp": "Mine-imatorでモデル用のスキンをダウンロードできるようにします。",
+		"modelscale": "モデルスケール",
+		"searchelementscaption": "検索...",
+		"hideshapes": "シェイプを非表示",
+		"newpart": "新規パーツ",
+		"newshape": "新規シェイプ",
+		"moveabove": "%1 より上に移動",
+		"movebelow": "%1 より下に移動",
+		"parentto": "%1 にペアレント",
+		"roottexture": "ルートテクスチャ",
+		"addtexture": "テクスチャを追加",
+		"texturesize": "%1x%2 px",
+		"texturescale": "スケール",
+		"defaulttexture": "既定のテクスチャ"
+	},
+	"elementeditor/": {
+		"partname": "パーツ名",
+		"shapename": "シェイプ名",
+		"emptypartname": "パーツ名を空欄にすることはできません。",
+		"samepartname": "パーツ名は同じにすることはできません。",
+		"newpart": "新規パーツ",
+		"newshape": "新規シェイプ",
+		"position/": {
+			"x": "X",
+			"y": "Y",
+			"z": "Z"
+		},
+		"rotation/": {
+			"x": "X",
+			"y": "Y",
+			"z": "Z"
+		},
+		"offset/": {
+			"x": "X",
+			"y": "Y",
+			"z": "Z"
+		},
+		"size/": {
+			"w": "W",
+			"l": "L",
+			"h": "H"
+		},
+		"scale/": {
+			"x": "X",
+			"y": "Y",
+			"z": "Z",
+			"xyz": "XYZ"
+		},
+		"bend/": {
+			"lock": "親の半分を曲げてロック",
+			"axis": "有効軸",
+			"axis/": {
+				"x": "X軸の曲がり",
+				"y": "Y軸の曲がり",
+				"z": "Z軸の曲がり"
+			},
+			"invert": "反転軸",
+			"invert/": {
+				"x": "反転",
+				"y": "反転",
+				"z": "反転"
+			},
+			"range/": {
+				"x": "範囲",
+				"y": "範囲",
+				"z": "範囲"
+			},
+			"angle/": {
+				"x": "デフォルトアングル",
+				"y": "デフォルトアングル",
+				"z": "デフォルトアングル"
+			},
+			"inheritangles": "ベンドアングルを継承",
+			"inheritangleshelp": "Mine-imatorのこの部分の「ベンドを継承」を有効にします。",
+			"offset": "オフセット",
+			"customsize": "カスタムベンドサイズ",
+			"customsizehelp": "カスタムベンドサイズを設定できます。このパーツのベンドは、プログラムのベンドスタイルを無視します。",
+			"size": "サイズ",
+			"part": "パーツ",
+			"part/": {
+				"right": "右",
+				"left": "左",
+				"front": "前",
+				"back": "後",
+				"upper": "上",
+				"lower": "下"
+			}
+		},
+		"texture": "テクスチャ",
+		"inherittexture": "テクスチャを継承",
+		"inheritcolor": "ペアレントカラーを継承",
+		"inheritcolorhelp": "不透明度と明るさを含む色のオプションを継承します。",
+		"blendcolor": "ブレンドカラー",
+		"mixcolor": "ミックスカラー",
+		"mixamount": "ミックス量",
+		"opacity": "不透明度",
+		"brightness": "明るさ",
+		"inflate": "インフレート",
+		"bend": "ベンド",
+		"mirrortexture": "ミラーの質感",
+		"invert": "反転",
+		"facecamera": "フェイスカメラ",
+		"hover": "ホバー",
+		"extrude": "押し出し",
+		"hidefront": "前を非表示",
+		"hideback": "後を非表示",
+		"windaxis": "風軸",
+		"windaxis/": {
+			"none": "なし",
+			"all": "すべて",
+			"y": "Y",
+			"z": "Z"
+		},
+		"windminimumy": "最小 Y",
+		"windminimumz": "最小 Z",
+		"windminimum": "最小",
+		"windmaximumy": "最大 Y",
+		"windmaximumz": "最大 Z",
+		"windmaximum": "最大",
+		"depth": "レンダリング深度",
+		"openpositiontab": "位置タブを開く",
+		"openpositiontabhelp": "このパーツの位置タブが自動的にMine-imatorで開きます。"
+	},
+	"preview/": {
+		"scenery": "地形",
+		"timeday": "",
+		"timedusk": "",
+		"timenight": "",
+		"timeofday": "時間帯",
+		"lightrotation": "ライトの回転",
+		"lightrange": "ライトレンジ",
+		"ao": "アンビエントオクルージョン",
+		"ssao": "アンビエントオクルージョン",
+		"ssaoradius": "半径",
+		"ssaopower": "強度",
+		"ssaoblurpasses": "ぼかしの質",
+		"shadows": "シャドウ",
+		"shadowsblurquality": "ぼかしの質",
+		"shadowsblursize": "ぼかし半径",
+		"aa": "アンチエイリアス",
+		"exportsize": "サイズを書き出し",
+		"exportsize/": {
+			"256": "256px",
+			"512": "512px",
+			"1024": "1024px"
+		},
+		"includebackground": "背景を含む",
+		"exportimage": "画像を書き出し"
+	},
+	"openmodel/": {
+		"recentmodels": "最近のモデル",
+		"browse": "閲覧..."
+	},
+	"export/": {
+		"disclaimer": "ブレンドカラー、ミックスカラー、不透明度、明るさ、反転、フェイスカメラ、ホバー、前を隠す、後を隠す、風、レンダリング深度の設定はサポートされていません！",
+		"disclaimer3dplanes": "大きな3D平面を使用すると、エクスポート時間が大幅に短縮され、Modelbenchが特定の時間帯に反応しなくなります。",
+		"selectiononly": "選択のみ",
+		"includehidden": "非表示要素を含む",
+		"unparentparts": "親ではないパーツ",
+		"combinelocked": "ロックされた要素を組み合わせる",
+		"unparentpartshelp": "パーツを親のトランスフォームなしで保存します。他のソフトウェアでのリギングに便利です。",
+		"mode": "エクスポートモード",
+		"mode/": {
+			"combineall": "シングルメッシュ",
+			"seperateparts": "オブジェクトとしてのパーツ",
+			"seperateshapes": "オブジェクトとしてのシェイプ"
+		},
+		"obj": "OBJにエクスポート",
+		"stage/": {
+			"total": "OBJモデルをエクスポートしています...",
+			"done": "(%1% 完了)",
+			"generation": "シェイプを生成しています...",
+			"compile": "頂点データのコンパイルしています...",
+			"face": "フェイスデータの作成しています..."
+		}
+	},
+	"settings/": {
+		"fps": "フレーム/秒",
+        "fps30": "30",
+        "fps60": "60",
+        "featureset": "機能セット",
+		"featuresetmimodel": "Mine-imatorモデル",
+		"featuresetobj": "Wavefront OBJ",
+		"backupmodels": "バックアップモデル",
+		"backupmodelsminutes": "バックアップの間の分数",
+		"backupmodelsamount": "保存バックアップの最大数",
+		"slowgeneration": "ゆっくりとしたシェイプの生成",
+		"slowgenerationhelp": "シェイプの更新が遅くなります。複雑なモデルを編集する際のパフォーマンスを向上させるのに便利です。",
+		"refreshtextures": "フォーカスでテクスチャをリフレッシュ",
+		"refreshtextureshelp": "ウィンドウがリフォーカスされた時に、すべてのモデルテクスチャを自動的にリフレッシュします。",
+		"adjustpivotresize": "リサイズ時のピボット調整",
+		"adjustpivotresizehelp": "UVエディタでのサイズ編集に基づいて形状のピボットを調整します。",
+		"interfaceshortcuts": "ユーザーインターフェイスのショートカット",
+		"shortcuts": "ショートカット",
+		"controlsfile": "ファイル",
+		"controlsediting": "編集",
+		"controlstools": "ツール",
+		"controlsnavigation": "ナビゲーション",
+		"key/": {
+			"new": "新規モデル",
+			"newtemplate": "新規モデル（テンプレート）",
+			"open": "モデルを開く",
+			"save": "モデルを保存",
+			"saveas": "モデルを別名で保存",
+			"import": "インポートモデル",
+			"undo": "元に戻す",
+			"redo": "やり直し",
+			"rename": "名前の変更",
+			"delete": "削除",
+			"duplicate": "複製",
+			"selectall": "すべて選択",
+			"uveditor": "UVエディタの切り替え",
+			"tool/": {
+				"select": "ツールを選択",
+				"pivot": "ピボットツール",
+				"move": "移動ツール",
+				"rotate": "回転ツール",
+				"scale": "スケールツール",
+				"transform": "変形ツール",
+				"bend": "ベンドツール",
+				"resize": "リサイズツール"
+			},
+			"snap": "トグルのスナップ",
+			"editsnap": "グリッドアライメントの変更",
+			"walknavigation": "歩きのナビゲーション",
+			"forward": "前",
+            "back": "後",
+            "left": "左",
+            "right": "右",
+            "ascend": "上",
+            "descend": "下",
+            "reset": "リセット",
+            "fast": "より速く",
+            "slow": "より遅く"
+		},
+		"theme": "テーマ",
+		"theme/": {
+			"light": "ライト",
+			"dark": "ダーク",
+			"darker": "ブラック"
+		},
+		"accentcolor": "アクセントカラー",
+		"language": "言語",
+		"openlanguagefolder": "フォルダを開く",
+		"zisup": "Z軸とY軸の切り替え",
+		"sharedtextureuvs": "共有テクスチャUVを表示",
+		"sharedtextureuvshelp": "UVエディタでテクスチャを共有するシェイプを表示します。",
+		"looksensitivity": "見た目の感度",
+		"viewportmousecontrols": "ビューポートのマウスコントロール",
+		"viewportmousecontrolsleft": "左クリック",
+		"viewportmousecontrolsmiddle": "中クリック",
+		"smoothcamera": "スムーズカメラ",
+		"smoothcameraamount": "数量",
+		"startuptips": "スタートアップのヒントを表示",
+		"reducedmotion": "動きの減少",
+		"restoredefaults": "初期設定に戻す",
+	},
+	"about/": {
+		"version": "バージョン %1",
+		"releasedate": ", リリース日 %1",
+		"forversion": "%1 対応",
+		"credits": "クレジット",
+		"development": "開発者",
+		"uibranding": "UI & ブランディング",
+		"specialthanks": "スペシャルサンクス",
+		"betatesting": "BETAテスト者",
+		"donate": "寄付"
+	},
+	"shortcut/": {
+		"select": "選択",
+		"selectadd": "選択（追加）",
+		"selectshape": "形状を選択",
+		"deselect": "選択解除",
+		"groupselect": "グループ選択",
+		"moveselection": "移動選択",
+		"orbitview": "軌道回転",
+		"panview": "パン",
+		"walknavigation": "ウォークナビ",
+		"zoom": "ズーム",
+		"transform": "トランスフォーム",
+		"transformslower": "トランスフォーム（スロー）",
+		"snap": "スナップ",
+		"reset": "リセット",
+		"resizearea": "領域のサイズ変更",
+		"movetab": "タブの移動",
+		"resizeaxis": "軸のサイズ変更",
+		"contextmenu/": {
+			"viewport": "ビューポートコンテキストメニュー",
+			"element": "要素コンテキストメニュー",
+			"texture": "テクスチャコンテキストメニュー",
+			"uveditor": "UVエディタコンテキストメニュー"
+		},
+		"uveditor/": {
+			"edituvs": "UVを編集",
+			"editlength": "長さの編集",
+			"editwidthheight": "幅/高さの編集",
+			"boxuvs": "セットボックスUV"
+		},
+		"move/": {
+			"forward": "前方",
+            "back": "後方",
+            "left": "左",
+            "right": "右",
+            "ascend": "上がる",
+            "descend": "下りる",
+            "reset": "リセット",
+            "fast": "より速く",
+            "slow": "スロー"
+		}
+	}
+}
