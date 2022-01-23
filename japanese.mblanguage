@@ -1,14 +1,14 @@
 {
-    "description": "Translated by harujun. Redistribution is prohibited.",
+    "description": "Translated by Harujun. Secondary distribution is strictly prohibited.",
     "file/": {
         "language": "日本語",
 		"locale": "ja-JP",
-        "translator": "harujun",
-        "forversion": "1.1.3",
-        "lastchange": "2021/02/11"
+        "translator": "Harujun",
+        "forversion": "1.1.4",
+        "lastchange": "2021/03/11"
     },
 	"startup/": {
-		"modeldetected": "未保存モデルの検出",
+		"modeldetected": "未保存モデルを検出",
 		"modeldetecteddesc": "以前のモデルベンチセッションから未保存のモデルが見つかりました。",
 		"recovermodel": "復元...",
 		"browse": "読み込む...",
@@ -27,11 +27,11 @@
 			"yesterday": "昨日",
 			"days": "%1 日前",
 			"lastweek": "先週前",
-			"date": "最後に開いた日 %1/%2/%3",
-			"never": "まだ開いてない",
-			"future": "未来"
+			"date": "最後に使用した日: %3/%2/%1",
+			"never": "まだ使用してません",
+			"future": "まだ到来してない時間に使用"
 		},
-		"none": "最近開いたモデルはこちらに登場します！",
+		"none": "最近開いたモデルはこちらに登場します",
 		"sortascendingtip": "昇順に並べ替え",
 		"sortdescendingtip": "降順に並べ替え",
 		"pintip": "固定",
@@ -40,7 +40,7 @@
 		"models": "最近のモデル"
 	},
 	"error/": {
-		"fileunreadable": "ファイルを正しく読み込めませんでした。詳細はログを参照してください。バックアップファイル(.mbbackup)があれば、それを読み込んでみてください(ファイルブラウザの拡張子を変更してください)。",
+		"fileunreadable": "ファイルを正しく読み込めませんでした。詳細はAppData/Roaming/Modelbench/log.txtを参照してください。バックアップファイル(.mbbackup)があれば、それを読み込んでみてください(ファイルブラウザの拡張子を変更してください)。",
         "fileunreadablecaption": "読み取れないファイル"
 	},
 	"question/": {
@@ -87,14 +87,14 @@
 	"snackbar/": {
 		"newupdate": "新しいアップデートが利用可能",
 		"newupdatedesc": "%1 がダウンロードできるようになっています。",
-		"savemodel": "モデルの保存に成功しました",
-		"saveimage": "画像の保存に成功しました",
+		"savemodel": "モデルを保存しました",
+		"saveimage": "画像を保存しました",
 		"openimage": "画像を開く",
 		"warning/": {
-			"samepartname": "同名のパーツもあります。",
-			"emptypartname": "名前がない部分もあります。",
-			"emptymodelname": "このモデルは名前がついていません。",
-			"savemodel": "Mine-imatorでは、モデルが正しく読み込まれない場合があります。"
+			"samepartname": "一部のパーツの名前が同じです。",
+			"emptypartname": "一部のパーツに名前がついていません。",
+			"emptymodelname": "モデルに名前がついていません。",
+			"savemodel": "Mine-imatorでは、このモデルが正しく読み込まれない可能性があります。"
 		},
 		"button/": {
 			"download": "今すぐダウンロード",
@@ -106,7 +106,7 @@
 			"next": "次のヒント",
 			"previous": "前のヒント",
 			"1": "スローシェイプ生成をオンにして、3D平面でのパフォーマンスを上げてみてください。",
-			"2": "何かを見つけるのに苦労していますか？右ｸﾘｯｸしてｵﾌﾟｼｮﾝ付きのﾒﾆｭｰを表示してみてください。",
+			"2": "何かを見つけるのに苦労してますか？右ｸﾘｯｸしてｵﾌﾟｼｮﾝ付きのﾒﾆｭｰを表示してみてください。",
 			"3": "プログラムが遅く感じる場合は、シェイプアウトラインとSSAOを無効にしてみてください。",
 			"4": "見栄えの良いベンドを作るには、ピボットオフセットツールを使って形状を移動させます。",
 			"5": "「テクスチャをフォーカスでリフレッシュ」は、モデリング中のテクスチャ編集に便利です。"
@@ -160,7 +160,7 @@
 			"saveuvmap": "UVマップを保存"
 		},
 		"element/": {
-			"add": "要素の追加...",
+			"add": "エレメントを追加...",
 			"rename": "名前を変更",
 			"duplicate": "複製",
 			"delete": "削除",
@@ -274,7 +274,7 @@
 	},
 	"tab/": {
 		"assets": "アセット",
-		"elementeditor": "要素エディタ",
+		"elementeditor": "エレメントエディタ",
 		"preview": "プレビュー",
 		"recentmodels": "最近のモデル",
 		"exportmodel": "モデルをエクスポート",
@@ -318,10 +318,10 @@
 		}
 	},
 	"key/": {
-        "left": "←",
-        "right": "→",
-        "up": "↑",
-        "down": "↓",
+        "left": "<-",
+        "right": "->",
+        "up": "上",
+        "down": "下",
         "enter": "Enter",
         "escape": "Esc",
         "space": "Space",
@@ -346,7 +346,7 @@
         "printscreen": "Printscreen"
     },
 	"modelproperties": "モデルのプロパティ",
-	"elements": "要素",
+	"elements": "エレメント",
 	"textures": "テクスチャ",
 	"position": "位置",
 	"pivotoffset": "軸オフセット",
@@ -478,7 +478,7 @@
 		"hover": "ホバー",
 		"extrude": "押し出し",
 		"hidefront": "前を非表示",
-		"hideback": "後を非表示",
+		"hideback": "後ろを非表示",
 		"windaxis": "風軸",
 		"windaxis/": {
 			"none": "なし",
@@ -513,7 +513,7 @@
 		"shadowsblurquality": "ぼかしの質",
 		"shadowsblursize": "ぼかし半径",
 		"aa": "アンチエイリアス",
-		"exportsize": "サイズを書き出し",
+		"exportsize": "書き出しサイズ",
 		"exportsize/": {
 			"256": "256px",
 			"512": "512px",
@@ -527,12 +527,12 @@
 		"browse": "閲覧..."
 	},
 	"export/": {
-		"disclaimer": "ブレンドカラー、ミックスカラー、不透明度、明るさ、反転、フェイスカメラ、ホバー、前を隠す、後を隠す、風、レンダリング深度の設定はサポートされていません！",
-		"disclaimer3dplanes": "大きな3D平面を使用すると、エクスポート時間が大幅に短縮され、Modelbenchが特定の時間帯に反応しなくなります。",
+		"disclaimer": "ブレンドカラー、ミックスカラー、不透明度、\n明るさ、反転、フェイスカメラ、ホバー、\n前を非表示、後ろを非表示、風効果、\nレンダリング深度の設定はサポートしません。",
+		"disclaimer3dplanes": " \n大きな3D平面を生成した場合、エクスポートに \n 時間がかかり、Modelbenchが応答しなくなる \n ことがあります。",
 		"selectiononly": "選択のみ",
-		"includehidden": "非表示要素を含む",
+		"includehidden": "非表示エレメントを含む",
 		"unparentparts": "親ではないパーツ",
-		"combinelocked": "ロックされた要素を組み合わせる",
+		"combinelocked": "ロックされたエレメントを組み合わせる",
 		"unparentpartshelp": "パーツを親のトランスフォームなしで保存します。他のソフトウェアでのリギングに便利です。",
 		"mode": "エクスポートモード",
 		"mode/": {
@@ -633,7 +633,7 @@
 	"about/": {
 		"version": "バージョン %1",
 		"releasedate": ", リリース日 %1",
-		"forversion": "%1 対応",
+		"forversion": "%1 に対応, 日本語翻訳: Harujun",
 		"credits": "クレジット",
 		"development": "開発者",
 		"uibranding": "UI & ブランディング",
@@ -661,7 +661,7 @@
 		"resizeaxis": "軸のサイズ変更",
 		"contextmenu/": {
 			"viewport": "ビューポートコンテキストメニュー",
-			"element": "要素コンテキストメニュー",
+			"element": "エレメントコンテキストメニュー",
 			"texture": "テクスチャコンテキストメニュー",
 			"uveditor": "UVエディタコンテキストメニュー"
 		},
